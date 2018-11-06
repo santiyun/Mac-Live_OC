@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14313.18"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="AVRegionView">
+            <connections>
+                <outlet property="audioStatsLabel" destination="3Pb-WI-2xj" id="eTM-zO-Ebi"/>
+                <outlet property="backgroundView" destination="wng-JI-8Iv" id="67L-fL-uqt"/>
+                <outlet property="idLabel" destination="dTI-np-iAB" id="mSz-lA-bVi"/>
+                <outlet property="videoPlayer" destination="afO-bz-MXG" id="ggr-Zq-rkZ"/>
+                <outlet property="videoStatsLabel" destination="3CJ-yf-EZO" id="uOR-UG-2Ej"/>
+                <outlet property="voiceBtn" destination="LFt-wA-WJS" id="bnh-gM-P29"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="wng-JI-8Iv">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="332"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="afO-bz-MXG">
+                    <rect key="frame" x="0.0" y="0.0" width="246" height="332"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="live_head" id="F0m-eJ-fck"/>
+                </imageView>
+                <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dTI-np-iAB">
+                    <rect key="frame" x="179" y="313" width="36" height="19"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="520" id="37K-jB-y1b">
+                        <font key="font" metaFont="system" size="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3Pb-WI-2xj">
+                    <rect key="frame" x="-2" y="17" width="250" height="17"/>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="A-↓0kbps" id="n4t-qn-362">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField hidden="YES" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3CJ-yf-EZO">
+                    <rect key="frame" x="-2" y="0.0" width="250" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="kbN-z6-2gk"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="V-↓0kbps" id="yR0-O1-r3S">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button hidden="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LFt-wA-WJS">
+                    <rect key="frame" x="0.0" y="304" width="28" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="28" id="STq-I5-7Rl"/>
+                        <constraint firstAttribute="height" constant="28" id="gd1-gw-MF9"/>
+                    </constraints>
+                    <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="voice_small" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="VYA-W0-h9u">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="enableVoiceAction:" target="-2" id="CFQ-gA-MDg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3Pb-WI-2xj" secondAttribute="bottom" constant="17" id="14I-kv-93t"/>
+                <constraint firstItem="3CJ-yf-EZO" firstAttribute="leading" secondItem="wng-JI-8Iv" secondAttribute="leading" id="OBN-xn-rwH"/>
+                <constraint firstAttribute="trailing" secondItem="afO-bz-MXG" secondAttribute="trailing" id="UWC-8X-pk2"/>
+                <constraint firstItem="3Pb-WI-2xj" firstAttribute="leading" secondItem="wng-JI-8Iv" secondAttribute="leading" id="Wih-zi-ybn"/>
+                <constraint firstItem="afO-bz-MXG" firstAttribute="leading" secondItem="wng-JI-8Iv" secondAttribute="leading" id="ZDj-RD-7e7"/>
+                <constraint firstItem="dTI-np-iAB" firstAttribute="top" secondItem="wng-JI-8Iv" secondAttribute="top" id="Zdn-Ri-8tt"/>
+                <constraint firstAttribute="bottom" secondItem="3CJ-yf-EZO" secondAttribute="bottom" id="dcm-GY-w4W"/>
+                <constraint firstItem="LFt-wA-WJS" firstAttribute="leading" secondItem="wng-JI-8Iv" secondAttribute="leading" id="gTW-sC-GQM"/>
+                <constraint firstAttribute="bottom" secondItem="afO-bz-MXG" secondAttribute="bottom" id="jLE-A2-qgw"/>
+                <constraint firstAttribute="trailing" secondItem="3Pb-WI-2xj" secondAttribute="trailing" id="kWF-ja-JHg"/>
+                <constraint firstAttribute="trailing" secondItem="3CJ-yf-EZO" secondAttribute="trailing" id="kX5-pt-R0g"/>
+                <constraint firstAttribute="trailing" secondItem="dTI-np-iAB" secondAttribute="trailing" constant="33" id="ldK-1d-XCi"/>
+                <constraint firstItem="LFt-wA-WJS" firstAttribute="top" secondItem="wng-JI-8Iv" secondAttribute="top" id="tBI-2d-3JM"/>
+                <constraint firstItem="afO-bz-MXG" firstAttribute="top" secondItem="wng-JI-8Iv" secondAttribute="top" id="vbv-ZL-Xye"/>
+            </constraints>
+            <point key="canvasLocation" x="-256" y="7"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="live_head" width="147.60000610351562" height="199.19999694824219"/>
+        <image name="voice_small" width="35" height="35"/>
+    </resources>
+</document>

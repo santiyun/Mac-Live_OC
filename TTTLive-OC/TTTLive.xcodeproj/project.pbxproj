@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4D5087216F4D3D00C4AE89 /* TTTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D5086216F4D3D00C4AE89 /* TTTUser.m */; };
+		9B4D508A216F540D00C4AE89 /* TTTVideoPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D5089216F540D00C4AE89 /* TTTVideoPosition.m */; };
+		9B50B7272160661F00F68DA8 /* TTTRtcManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B7262160661F00F68DA8 /* TTTRtcManager.m */; };
+		9B50B72A2160663800F68DA8 /* LiveWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B7292160663800F68DA8 /* LiveWindowController.m */; };
+		9B50B72D2160665700F68DA8 /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B72C2160665700F68DA8 /* LiveViewController.m */; };
+		9B50B7302160669100F68DA8 /* AVRegionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B50B72F2160669100F68DA8 /* AVRegionView.m */; };
+		9B50B7322160669C00F68DA8 /* AVRegionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B50B7312160669C00F68DA8 /* AVRegionView.xib */; };
+		9B5D0259216F2C460035DD6A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D0258216F2C460035DD6A /* libc++.tbd */; };
+		9B5D025B216F2C900035DD6A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D025A216F2C900035DD6A /* SystemConfiguration.framework */; };
+		9B5D025D216F2C960035DD6A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D025C216F2C960035DD6A /* libxml2.tbd */; };
+		9B5D025F216F32BC0035DD6A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D025E216F32BC0035DD6A /* libiconv.tbd */; };
+		9B5D0261216F347F0035DD6A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D0260216F347F0035DD6A /* libz.tbd */; };
+		9B5D0263216F35080035DD6A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D0262216F35080035DD6A /* VideoToolbox.framework */; };
+		9B5D0265216F35B80035DD6A /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D0264216F35B80035DD6A /* VideoDecodeAcceleration.framework */; };
+		9B5D0267216F35E50035DD6A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D0266216F35E50035DD6A /* libbz2.tbd */; };
+		9B5D0269216F36450035DD6A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5D0268216F36450035DD6A /* libresolv.tbd */; };
+		9BD84A8F215B36B300DDE081 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84A8E215B36B300DDE081 /* AppDelegate.m */; };
+		9BD84A94215B36B400DDE081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD84A93215B36B400DDE081 /* Assets.xcassets */; };
+		9BD84A97215B36B400DDE081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD84A95215B36B400DDE081 /* Main.storyboard */; };
+		9BD84A9A215B36B400DDE081 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84A99215B36B400DDE081 /* main.m */; };
+		9BD84AA3215B383000DDE081 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84AA2215B383000DDE081 /* LoginViewController.m */; };
+		9BD84AA9215B39A100DDE081 /* NSView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84AA5215B39A100DDE081 /* NSView+Toast.m */; };
+		9BD84AAA215B39A100DDE081 /* TTTProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD84AA8215B39A100DDE081 /* TTTProgressHud.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B4D5085216F4D3D00C4AE89 /* TTTUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTUser.h; sourceTree = "<group>"; };
+		9B4D5086216F4D3D00C4AE89 /* TTTUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTUser.m; sourceTree = "<group>"; };
+		9B4D5088216F540D00C4AE89 /* TTTVideoPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTVideoPosition.h; sourceTree = "<group>"; };
+		9B4D5089216F540D00C4AE89 /* TTTVideoPosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTVideoPosition.m; sourceTree = "<group>"; };
+		9B50B7252160661F00F68DA8 /* TTTRtcManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTTRtcManager.h; sourceTree = "<group>"; };
+		9B50B7262160661F00F68DA8 /* TTTRtcManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTRtcManager.m; sourceTree = "<group>"; };
+		9B50B7282160663800F68DA8 /* LiveWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveWindowController.h; sourceTree = "<group>"; };
+		9B50B7292160663800F68DA8 /* LiveWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveWindowController.m; sourceTree = "<group>"; };
+		9B50B72B2160665700F68DA8 /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		9B50B72C2160665700F68DA8 /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		9B50B72E2160669100F68DA8 /* AVRegionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVRegionView.h; sourceTree = "<group>"; };
+		9B50B72F2160669100F68DA8 /* AVRegionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRegionView.m; sourceTree = "<group>"; };
+		9B50B7312160669C00F68DA8 /* AVRegionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVRegionView.xib; sourceTree = "<group>"; };
+		9B5D0258216F2C460035DD6A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9B5D025A216F2C900035DD6A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B5D025C216F2C960035DD6A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		9B5D025E216F32BC0035DD6A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		9B5D0260216F347F0035DD6A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9B5D0262216F35080035DD6A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		9B5D0264216F35B80035DD6A /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
+		9B5D0266216F35E50035DD6A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		9B5D0268216F36450035DD6A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		9B5D026A216F497C0035DD6A /* 直播连麦.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "直播连麦.entitlements"; sourceTree = "<group>"; };
+		9BD84A8A215B36B300DDE081 /* 直播连麦.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播连麦.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BD84A8D215B36B300DDE081 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BD84A8E215B36B300DDE081 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BD84A93215B36B400DDE081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BD84A96215B36B400DDE081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BD84A98215B36B400DDE081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BD84A99215B36B400DDE081 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD84A9B215B36B400DDE081 /* TTTLive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTTLive.entitlements; sourceTree = "<group>"; };
+		9BD84AA1215B383000DDE081 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9BD84AA2215B383000DDE081 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9BD84AA5215B39A100DDE081 /* NSView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Toast.m"; sourceTree = "<group>"; };
+		9BD84AA6215B39A100DDE081 /* TTTProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTProgressHud.h; sourceTree = "<group>"; };
+		9BD84AA7215B39A100DDE081 /* NSView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Toast.h"; sourceTree = "<group>"; };
+		9BD84AA8215B39A100DDE081 /* TTTProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTProgressHud.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BD84A87215B36B300DDE081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5D0269216F36450035DD6A /* libresolv.tbd in Frameworks */,
+				9B5D0267216F35E50035DD6A /* libbz2.tbd in Frameworks */,
+				9B5D0265216F35B80035DD6A /* VideoDecodeAcceleration.framework in Frameworks */,
+				9B5D0263216F35080035DD6A /* VideoToolbox.framework in Frameworks */,
+				9B5D0261216F347F0035DD6A /* libz.tbd in Frameworks */,
+				9B5D025F216F32BC0035DD6A /* libiconv.tbd in Frameworks */,
+				9B5D025D216F2C960035DD6A /* libxml2.tbd in Frameworks */,
+				9B5D025B216F2C900035DD6A /* SystemConfiguration.framework in Frameworks */,
+				9B5D0259216F2C460035DD6A /* libc++.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B5D0257216F2C460035DD6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D0268216F36450035DD6A /* libresolv.tbd */,
+				9B5D0266216F35E50035DD6A /* libbz2.tbd */,
+				9B5D0264216F35B80035DD6A /* VideoDecodeAcceleration.framework */,
+				9B5D0262216F35080035DD6A /* VideoToolbox.framework */,
+				9B5D0260216F347F0035DD6A /* libz.tbd */,
+				9B5D025E216F32BC0035DD6A /* libiconv.tbd */,
+				9B5D025C216F2C960035DD6A /* libxml2.tbd */,
+				9B5D025A216F2C900035DD6A /* SystemConfiguration.framework */,
+				9B5D0258216F2C460035DD6A /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9BD84A81215B36B300DDE081 = {
+			isa = PBXGroup;
+			children = (
+				9BD84A8C215B36B300DDE081 /* TTTLive */,
+				9BD84A8B215B36B300DDE081 /* Products */,
+				9B5D0257216F2C460035DD6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BD84A8B215B36B300DDE081 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BD84A8A215B36B300DDE081 /* 直播连麦.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BD84A8C215B36B300DDE081 /* TTTLive */ = {
+			isa = PBXGroup;
+			children = (
+				9B5D026A216F497C0035DD6A /* 直播连麦.entitlements */,
+				9BD84A8D215B36B300DDE081 /* AppDelegate.h */,
+				9BD84A8E215B36B300DDE081 /* AppDelegate.m */,
+				9B50B7252160661F00F68DA8 /* TTTRtcManager.h */,
+				9B50B7262160661F00F68DA8 /* TTTRtcManager.m */,
+				9BD84AA1215B383000DDE081 /* LoginViewController.h */,
+				9BD84AA2215B383000DDE081 /* LoginViewController.m */,
+				9B50B72B2160665700F68DA8 /* LiveViewController.h */,
+				9B50B72C2160665700F68DA8 /* LiveViewController.m */,
+				9B50B7282160663800F68DA8 /* LiveWindowController.h */,
+				9B50B7292160663800F68DA8 /* LiveWindowController.m */,
+				9B4D5088216F540D00C4AE89 /* TTTVideoPosition.h */,
+				9B4D5089216F540D00C4AE89 /* TTTVideoPosition.m */,
+				9B50B72E2160669100F68DA8 /* AVRegionView.h */,
+				9B50B72F2160669100F68DA8 /* AVRegionView.m */,
+				9B50B7312160669C00F68DA8 /* AVRegionView.xib */,
+				9B4D5085216F4D3D00C4AE89 /* TTTUser.h */,
+				9B4D5086216F4D3D00C4AE89 /* TTTUser.m */,
+				9BD84AA4215B39A100DDE081 /* TTTHelp */,
+				9BD84A93215B36B400DDE081 /* Assets.xcassets */,
+				9BD84A95215B36B400DDE081 /* Main.storyboard */,
+				9BD84A98215B36B400DDE081 /* Info.plist */,
+				9BD84A99215B36B400DDE081 /* main.m */,
+				9BD84A9B215B36B400DDE081 /* TTTLive.entitlements */,
+			);
+			path = TTTLive;
+			sourceTree = "<group>";
+		};
+		9BD84AA4215B39A100DDE081 /* TTTHelp */ = {
+			isa = PBXGroup;
+			children = (
+				9BD84AA7215B39A100DDE081 /* NSView+Toast.h */,
+				9BD84AA5215B39A100DDE081 /* NSView+Toast.m */,
+				9BD84AA6215B39A100DDE081 /* TTTProgressHud.h */,
+				9BD84AA8215B39A100DDE081 /* TTTProgressHud.m */,
+			);
+			path = TTTHelp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BD84A89215B36B300DDE081 /* TTTLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BD84A9E215B36B400DDE081 /* Build configuration list for PBXNativeTarget "TTTLive" */;
+			buildPhases = (
+				9BD84A86215B36B300DDE081 /* Sources */,
+				9BD84A87215B36B300DDE081 /* Frameworks */,
+				9BD84A88215B36B300DDE081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTLive;
+			productName = TTTLive;
+			productReference = 9BD84A8A215B36B300DDE081 /* 直播连麦.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BD84A82215B36B300DDE081 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = yanzhen;
+				TargetAttributes = {
+					9BD84A89215B36B300DDE081 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9BD84A85215B36B300DDE081 /* Build configuration list for PBXProject "TTTLive" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BD84A81215B36B300DDE081;
+			productRefGroup = 9BD84A8B215B36B300DDE081 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BD84A89215B36B300DDE081 /* TTTLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BD84A88215B36B300DDE081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD84A94215B36B400DDE081 /* Assets.xcassets in Resources */,
+				9B50B7322160669C00F68DA8 /* AVRegionView.xib in Resources */,
+				9BD84A97215B36B400DDE081 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BD84A86215B36B300DDE081 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B50B7272160661F00F68DA8 /* TTTRtcManager.m in Sources */,
+				9BD84A9A215B36B400DDE081 /* main.m in Sources */,
+				9B4D508A216F540D00C4AE89 /* TTTVideoPosition.m in Sources */,
+				9BD84A8F215B36B300DDE081 /* AppDelegate.m in Sources */,
+				9BD84AA3215B383000DDE081 /* LoginViewController.m in Sources */,
+				9BD84AAA215B39A100DDE081 /* TTTProgressHud.m in Sources */,
+				9B50B7302160669100F68DA8 /* AVRegionView.m in Sources */,
+				9B50B72A2160663800F68DA8 /* LiveWindowController.m in Sources */,
+				9B4D5087216F4D3D00C4AE89 /* TTTUser.m in Sources */,
+				9B50B72D2160665700F68DA8 /* LiveViewController.m in Sources */,
+				9BD84AA9215B39A100DDE081 /* NSView+Toast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BD84A95215B36B400DDE081 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BD84A96215B36B400DDE081 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BD84A9C215B36B400DDE081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9BD84A9D215B36B400DDE081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9BD84A9F215B36B400DDE081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4SZ6BRJK5P;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../TTTLib";
+				INFOPLIST_FILE = TTTLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../TTTLib/ffmpeg";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-framework",
+					TTTRtcEngineKit,
+					"-lavcodec",
+					"-lavdevice",
+					"-lavfilter",
+					"-lavutil",
+					"-lswresample",
+					"-lswscale",
+					"-lavformat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.3ttech.TTTLive;
+				PRODUCT_NAME = "直播连麦";
+			};
+			name = Debug;
+		};
+		9BD84AA0215B36B400DDE081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 4SZ6BRJK5P;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../TTTLib";
+				INFOPLIST_FILE = TTTLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/../TTTLib/ffmpeg";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				OTHER_LDFLAGS = (
+					"-framework",
+					TTTRtcEngineKit,
+					"-lavcodec",
+					"-lavdevice",
+					"-lavfilter",
+					"-lavutil",
+					"-lswresample",
+					"-lswscale",
+					"-lavformat",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mac.3ttech.TTTLive;
+				PRODUCT_NAME = "直播连麦";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BD84A85215B36B300DDE081 /* Build configuration list for PBXProject "TTTLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD84A9C215B36B400DDE081 /* Debug */,
+				9BD84A9D215B36B400DDE081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BD84A9E215B36B400DDE081 /* Build configuration list for PBXNativeTarget "TTTLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BD84A9F215B36B400DDE081 /* Debug */,
+				9BD84AA0215B36B400DDE081 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BD84A82215B36B300DDE081 /* Project object */;
+}
